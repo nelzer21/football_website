@@ -16,7 +16,7 @@ ul {
 
 li {
     float: left;
-    border-right:1px solid #bbb;
+    border-right:1px solid black;
 }
 
 li:last-child {
@@ -33,11 +33,11 @@ li a {
 }
 
 li a:hover:not(.active) {
-    background-color: #111;
+    background-color: black;
 }
 
 .active {
-    background-color: #79090a;
+    background-color: black;
 }
 
 .image-zoom-container {
@@ -51,7 +51,7 @@ li a:hover:not(.active) {
 	width: 33.33%;
 	font-size: 16px;
 	font-size: 1rem;
-	border: 1px solid #fff;
+	border: 1px solid white;
 	vertical-align: top;
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -89,7 +89,7 @@ li a:hover:not(.active) {
 	font-weight: 900;
 	letter-spacing: -1px;
 	text-transform: uppercase;
-	color: #fff;
+	color: black;
 	margin: 23% 0 0;
 	padding: 10px 0;
 	border-top: 5px solid rgba(255, 255, 255, .15);
