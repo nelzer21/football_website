@@ -1,3 +1,66 @@
-.Super {
-  width: 30%;
+body {background-color: #e3dfd5;}
+*{
+  padding:0;
+  margin:0 auto;
+  text-align: center;
 }
+#header{
+  height:30px;
+  background-color:#305673;
+  width:100%;
+  font: Bodoni 72 Smallcaps;
+  font-size:25px;
+  color: white;
+}
+
+#content{
+  width:1500px;
+  background-color:#305673;
+   }
+
+#banner {
+  position: absolute;
+  top: 20px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  height: 200px;
+  z-index: -1;
+   }
+
+   ul.topnav {
+     font-family: arial, sans-serif;
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color: black;
+     opacity: 0.8;
+     filter: alpha (opacity=80);
+   }
+
+   ul.topnav li {float: left;}
+
+   ul.topnav li a {
+       display: inline-block;
+       color: #f2f2f2;
+       text-align: center;
+       padding: 30px 5px;
+       text-decoration: none;
+       transition: 0.3s;
+       font-size: 16px;
+   }
+
+   ul.topnav li a:hover {background-color: #555;}
+
+   ul.topnav li.icon {display: none;}
+
+   .input[type=text] {
+       width: 130px;
+       -webkit-transition: width 0.4s ease-in-out;
+       transition: width 0.4s ease-in-out;
+   }
+
+   input[type=text]:focus; {
+       width: 50%;
+   }
